@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(images/parrallx.jpg);
+    min-height: 100%; 
+} 
+.pimg2{
+    background-image: url(images/parallx2.jpg);
+    min-height: 400px; 
+}
+   
+.pimg3{ background-image: url(images/parallx3.jpg);
+    min-height: 400px; 
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color : white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textbg{
+    background : #666666b1;
+    padding: 20px;
+}
+.sectionlight{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+.sectiondark{
+    background-color: #282828;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 50px 80px 
+    }
